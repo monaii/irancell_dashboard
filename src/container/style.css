@@ -18,7 +18,7 @@
 	height: 150px;
 	width: 100%;
 	border-radius: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .my-irancell-page .header span {
 	position: relative;
@@ -41,9 +41,9 @@
 }
 .my-irancell-page .linear-chart {
 	background-color: #fff;
-	padding: 40px;
+	padding: 20px 30px;
 	border-radius: 14px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .my-irancell-page .linear-chart .recharts-responsive-container tspan {
 	font-family: vazir;
@@ -57,6 +57,26 @@
 	border-radius: 5px;
 	border: none;
 	outline: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.my-irancell-page .custom-button {
+	height: 30px;
+	color: white;
+	background: #fdc816;
+	box-shadow: 0px 0px 8px rgba(253, 200, 22, 0.39);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-family: lalezar;
+	text-align: end;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.my-irancell-page .custom-button:hover,
+.my-irancell-page .buy-button:hover {
+	background: #f1be16;
+	box-shadow: 0px 0px 8px rgba(238, 185, 12, 0.39);
 }
 .my-irancell-page .info-card {
 	border-radius: 25px;
@@ -90,13 +110,27 @@
 }
 .my-irancell-page .sim-card-info {
 	width: 100%;
+	height: calc(100% - 120px);
 	border-radius: 13px;
 	background-color: #fffcef;
-	flex-grow: 4;
-	height: 100%;
+	padding: 23px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.my-irancell-page .sim-card-info .pie-chart {
+	position: relative;
+	width: 220px;
+	height: 220px;
+}
+.my-irancell-page .sim-card-info .pie-chart span {
+	position: absolute;
+	top: 40%;
+	left: 32%;
+	color: #00a3ff;
+	font-weight: 700;
+	font-size: 18px;
 }
 .my-irancell-page .sim-card-info section {
 	display: flex;
@@ -120,18 +154,21 @@
 }
 .my-irancell-page .sim-card-info .download-our-app {
 	border-radius: 8px;
-	width: 288px;
-	height: 104px;
-	margin: 22px;
+	width: 100%;
 }
 .my-irancell-page .side-bar {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	padding: 24px;
+	padding-left: 0;
 }
-.my-irancell-page .side-bar .main-page-button {
-	position: relative;
+.my-irancell-page .side-bar .heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 24px;
 }
 .my-irancell-page .side-bar .active-border {
 	position: absolute;
@@ -143,16 +180,26 @@
 .my-irancell-page .side-bar--active-option {
 	font-weight: 700;
 	font-size: 15px;
-	color: #626161;
 }
-.my-irancell-page .side-bar--sub-menu {
+.my-irancell-page .menu-item {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	gap: 11px;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #818181;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.my-irancell-page .menu-item:hover {
+	color: #474747;
+}
+.my-irancell-page .menu-item p {
+	margin-right: 10px;
+}
+.my-irancell-page .menu {
+	padding-right: 30px;
 }
 .suggest-packages {
 	background-color: #fff;
@@ -190,9 +237,10 @@
 	padding: 10px;
 }
 .search-box {
+	margin-top: 50px;
 	width: 207px;
 	height: 44px;
-	border: 1px solid #888;
+	border: 1px solid #e7e7e7;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: row-reverse;
@@ -208,10 +256,11 @@
 }
 .search-box ::placeholder {
 	font-size: 1rem;
-	color: #888;
+	color: #e7e7e7;
 }
 .sub-title {
 	font-size: 12px;
-	color: #686666;
+	color: #e7e7e7;
 	text-align: right;
+	margin-top: 30px;
 }
