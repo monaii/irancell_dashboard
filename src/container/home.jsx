@@ -1,10 +1,10 @@
 import React from "react";
-import MyInformation from "./components/Information";
-import Right from "./components/RightSide";
-import Left from "./components/LeftSide";
-import Header from "./components/Header";
-import Mid from "./components/Middle";
-import LineChart from "./components/AreaChart";
+import UserInfo from "./components/userInfo";
+import SideNavigation from "./components/sideNavigation";
+import UserStatus from "./components/userStatus";
+import HeaderPoster from "./components/headerPoster";
+import SuggestedPackagesTable from "./components/suggestedPackagesTable";
+import StatisticsAreaChart from "./components/statisticsAreaChart";
 import "./style.css";
 
 function Home() {
@@ -12,16 +12,16 @@ function Home() {
 		<div className=" my-irancell-page">
 			<div className="row mx-0">
 				<div className="col-xl-3 col-xxl-2 mt-3">
-					<MyInformation />
-					<Left />
+					<UserInfo />
+					<UserStatus />
 				</div>
 				<div className="col-lg-7 col-xxl-8 mt-4">
-					<Header />
-					<LineChart />
-					<Mid />
+					<HeaderPoster />
+					<StatisticsAreaChart />
+					<SuggestedPackagesTable />
 				</div>
 				<div className="col-lg-2 side-nav">
-					<Right />
+					<SideNavigation />
 				</div>
 			</div>
 		</div>

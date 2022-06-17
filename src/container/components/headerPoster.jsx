@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../assets/images/header.png";
 
-function Heade() {
+function HeaderPoster() {
 	return (
 		<>
 			<h4 className="text-end ff-lalezar mb-4">صفحه اصلی</h4>
@@ -13,4 +13,4 @@ function Heade() {
 	);
 }
 
-export default Heade;
+export default HeaderPoster;

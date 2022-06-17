@@ -1,6 +1,6 @@
 import React from "react";
 
-function Mid() {
+function SuggestedPackagesTable() {
 	const mockRowData = [
 		{
 			date: "14 شهریور 1401",
@@ -53,4 +53,4 @@ function Mid() {
 	);
 }
 
-export default Mid;
+export default SuggestedPackagesTable;

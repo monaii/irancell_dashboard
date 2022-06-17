@@ -1,7 +1,7 @@
 import React from "react";
 import me from "../../assets/images/me.jpg";
 
-function MyInformation() {
+function UserInfo() {
 	return (
 		<div className="my-irancell-page info-card">
 			<section>
@@ -13,4 +13,4 @@ function MyInformation() {
 	);
 }
 
-export default MyInformation;
+export default UserInfo;

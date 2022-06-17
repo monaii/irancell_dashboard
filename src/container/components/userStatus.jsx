@@ -1,16 +1,16 @@
 import React from "react";
 import download from "../../assets/images/download.png";
 import { FaMailBulk, FaWifi } from "react-icons/fa";
-import PieChart from "../components/PieChart";
+import StatusPieChart from "./statusPieChart";
 
-function Left() {
+function UserStatus() {
 	return (
 		<div className="sim-card-info">
 			<div>
 				<div className="row flex-column justify-content-center align-items-center ">
 					<h3 className="ff-lalezar text-center">شارژ باقی مانده سیمکارت</h3>
 					<div className="pie-chart">
-						<PieChart />
+						<StatusPieChart />
 						<span>6000 تومان</span>
 					</div>
 					<div className=" text-center">
@@ -47,4 +47,4 @@ function Left() {
 	);
 }
 
-export default Left;
+export default UserStatus;

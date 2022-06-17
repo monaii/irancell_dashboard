@@ -13,7 +13,7 @@ import {
 	FaHome,
 } from "react-icons/fa";
 
-function Right() {
+function SideNavigation() {
 	return (
 		<div className="side-bar">
 			<div className="heading">
@@ -80,4 +80,4 @@ function Right() {
 	);
 }
 
-export default Right;
+export default SideNavigation;
