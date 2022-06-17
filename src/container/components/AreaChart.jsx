@@ -36,6 +36,7 @@ export default class Example extends PureComponent {
 	render() {
 		return (
 			<div className="linear-chart">
+				<h5 className="ff-lalezar text-end mb-5">نمودار میزان مصرف کل</h5>
 				<div style={{ height: "250px", width: "95%", textAlign: "left" }}>
 					<ResponsiveContainer>
 						<AreaChart data={data}>
