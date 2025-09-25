@@ -71,17 +71,6 @@ This dashboard was designed and developed as a learning project for a multimedia
 
 Screenshots of the application can be found in the `screenshots/` folder.
 
-## Academic Context
-
-This project was developed as part of a multimedia course during bachelor studies. The main learning objectives included:
-
-- Understanding React.js fundamentals
-- Implementing RTL (Right-to-Left) layouts
-- Working with Persian/Farsi localization
-- Creating responsive web applications
-- Integrating data visualization components
-- Managing state in React applications
-
 ## License
 
 This project is for educational purposes as part of academic coursework.
