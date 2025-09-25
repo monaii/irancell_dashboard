@@ -93,11 +93,3 @@ The application supports all modern browsers including:
 ## License
 
 This project is for educational purposes as part of academic coursework.
-
-## Contributors
-
-- **Mona Pourasmaeil** - Developer and Designer
-
----
-
-*This project demonstrates the practical application of web development concepts learned in multimedia coursework, focusing on Persian language support and modern React development practices.*
