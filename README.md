@@ -82,14 +82,6 @@ This project was developed as part of a multimedia course during bachelor studie
 - Integrating data visualization components
 - Managing state in React applications
 
-## Browser Support
-
-The application supports all modern browsers including:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## License
 
 This project is for educational purposes as part of academic coursework.
