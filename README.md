@@ -2,7 +2,7 @@
 
 A Persian (Farsi) dashboard application developed as part of a multimedia course project during bachelor studies. This project demonstrates the implementation of a right-to-left (RTL) user interface using React.js with Persian language support.
 
-## 📋 Project Description
+## Project Description
 
 This dashboard was designed and developed as a learning project for a multimedia course in bachelor's degree. The application features:
 
@@ -13,7 +13,7 @@ This dashboard was designed and developed as a learning project for a multimedia
 - **Data Visualization**: Interactive charts and statistics
 - **User Management**: User profile and status components
 
-## 🚀 Features
+## Features
 
 - User information display with profile picture
 - Interactive navigation sidebar
@@ -23,7 +23,7 @@ This dashboard was designed and developed as a learning project for a multimedia
 - Bootstrap integration for styling
 - Sass support for enhanced CSS
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React 18.1.0** - Frontend framework
 - **Persian.js** - Persian language utilities
@@ -32,7 +32,7 @@ This dashboard was designed and developed as a learning project for a multimedia
 - **Sass** - CSS preprocessor
 - **Bootstrap 4** - UI framework
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (version 14 or higher)
@@ -60,18 +60,18 @@ This dashboard was designed and developed as a learning project for a multimedia
 4. **Open your browser**
    Navigate to `http://localhost:3000` to view the application.
 
-## 📱 Available Scripts
+## Available Scripts
 
 - `npm start` - Runs the app in development mode
 - `npm run build` - Builds the app for production
 - `npm test` - Launches the test runner
 - `npm run deploy` - Deploys to GitHub Pages
 
-## 📸 Screenshots
+## Screenshots
 
 Screenshots of the application can be found in the `screenshots/` folder.
 
-## 🎓 Academic Context
+## Academic Context
 
 This project was developed as part of a multimedia course during bachelor studies. The main learning objectives included:
 
@@ -82,7 +82,7 @@ This project was developed as part of a multimedia course during bachelor studie
 - Integrating data visualization components
 - Managing state in React applications
 
-## 🌐 Browser Support
+## Browser Support
 
 The application supports all modern browsers including:
 - Chrome (latest)
@@ -90,11 +90,11 @@ The application supports all modern browsers including:
 - Safari (latest)
 - Edge (latest)
 
-## 📄 License
+## License
 
 This project is for educational purposes as part of academic coursework.
 
-## 👥 Contributors
+## Contributors
 
 - **Mona Pourasmaeil** - Developer and Designer
 
