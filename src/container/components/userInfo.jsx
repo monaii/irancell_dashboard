@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/images/me.jpg";
+import me from "../../assets/images/me.png";
 
 function UserInfo() {
 	return (
